@@ -6,3 +6,37 @@
     box-sizing: border-box;
     font-family: 'Russo One', sans-serif;
 }
+
+.navbar{
+    font-size: 20px;
+}
+
+.tc{
+    font-size: 30px;
+}
+
+.card1{
+    transition: 2.0s;
+}
+
+.card1:hover{
+    transform: scale(0.8);
+}
+
+.iconos{
+    font-size: 25px;
+}
+
+.iconos a{
+    text-decoration: none;
+    color:rgb(44, 44, 44);
+    font-size: 25px;
+}
+
+@media screen and (max-width: 720px){
+    .final{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
