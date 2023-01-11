@@ -40,3 +40,10 @@
     }
 
 }
+
+@media screen and (min-width: 1150px){
+    .presentacion:hover{
+        transition: 2.0s;
+        transform: translate(100px);
+    }
+}
